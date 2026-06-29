@@ -1,5 +1,5 @@
 const products = [
-  // ================= Electronics =================
+  
   {
     id: 1,
     title: "Wireless Headphones",
@@ -29,7 +29,7 @@ const products = [
     image: "/images/electronics/smartwatch.jpg",
   },
 
-  // ================= Men =================
+  
   {
     id: 5,
     title: "Men's Jeans",
@@ -59,7 +59,7 @@ const products = [
     image: "/images/mens/tshirt.jpg",
   },
 
-  // ================= Women =================
+  
   {
     id: 9,
     title: "Women's Dress",
@@ -89,7 +89,7 @@ const products = [
     image: "/images/womens/watches.jpg",
   },
 
-  // ================= Sports =================
+  
   {
     id: 13,
     title: "Cricket Kit Bag",

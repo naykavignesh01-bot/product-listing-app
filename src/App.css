@@ -86,7 +86,7 @@
   color: red;
 }
 
-/* Tablet */
+
 
 @media (max-width: 992px) {
   .App {
@@ -102,7 +102,7 @@
   }
 }
 
-/* Mobile */
+
 
 @media (max-width: 600px) {
   .App {
