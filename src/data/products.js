@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     title: "Wireless Headphones",
-    price: 19,
+    price: 1999,
     category: "Electronics",
     image: "/images/electronics/headphone.jpg",
   },

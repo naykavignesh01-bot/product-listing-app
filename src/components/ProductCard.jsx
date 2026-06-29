@@ -17,7 +17,7 @@ function ProductCard({ product }) {
 
 
       <p className="price">
-  ₹{Math.round(product.price * 86).toLocaleString("en-IN")}
+  ₹{product.price.toLocaleString("en-IN")}
 </p>
 
 
