@@ -66,6 +66,15 @@
   text-transform: capitalize;
 }
 
+.category-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #222;
+  margin: 50px 0 20px;
+  padding-left: 15px;
+  border-left: 6px solid #ff6b35;
+}
+
 .status {
   text-align: center;
   margin-top: 60px;
