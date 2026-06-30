@@ -1,14 +1,9 @@
-const API_URL = "https://fakestoreapi.com/products";
+import products from "../data/products";
 
-
-export const fetchProducts = async () => {
-
-  const response = await fetch(API_URL);
-
-  if (!response.ok) {
-    throw new Error("Failed to fetch products");
-  }
-
-  return await response.json();
-
+export const fetchProducts = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(products);
+    }, 1000);
+  });
 };
